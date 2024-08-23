@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Poppins:400,700');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --dark-gray: #2A2F33;
+    --background: #EDEFF0;
+    --blue-header: #046DD5;
+    --red-info:#F4655F;
+    --local-section:#E1493E;
+    --world-section: #8ABA56;
+    --politics-section: #5B4282;
+    --sports-section: #FF8932;
+    --science-section: #19B6E9;
+    --weather-section: #E84C8B;
+}
+
+/* Fonts */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #EDEFF0;
+}
+
+p {
+    font-family: "Lora", serif;
+    line-height: 1.4em;
+}
+
+/* Header */
+
+header * {
+    color: white;
+}
+
+#header{
+    background-color: var(--blue-header);
+    width: 100%;
+    padding: 1.5em;
+}
+
+#signup{
+    margin-top: 1em;
+}
+
+#signup a{
+    text-decoration: underline;
+    padding: 0 .5em;
+}
+
+#signup a:first-child{
+    border-right: white solid 1px;
+}
+
+
+/* Menu */
+
+#menu{
+    width: 100%;
+    background-color: white;
+}
+
+#menu ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#menu li{
+    display: block;
+    flex: 1;
+    text-align: center;
+    padding: 1em;
+}
+
+#menu a{
+    color: #2A2F33;
+}
+
+#menu .local{
+    border-top: var(--local-section) solid 1em;
+}
+
+#menu .world{
+    border-top: var(--world-section) solid 1em;
+}
+
+#menu .politics{
+    border-top: var(--politics-section) solid 1em;
+}
+
+#menu .sports{
+    border-top: var(--sports-section) solid 1em;
+}
+
+#menu .science{
+    border-top: var(--science-section) solid 1em;
+}
+
+#menu .weather{
+    border-top: var(--weather-section) solid 1em;
+}
+
+
+/* News */
+
+#news{
+    background-color: white;
+    margin: 1.2em  5em;
+}
+
+article img{
+    width: 100%;
+    height: 280px;
+}
+
+article header{
+    position: absolute;
+    width: 33%;
+    padding: 2em;
+}
+
+#news header h1{
+    text-shadow: 5px 5px 5px #000000ca;
+    font-size: 28px;
+}
