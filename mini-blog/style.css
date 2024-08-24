@@ -117,7 +117,6 @@ header * {
 /* News */
 
 #news{
-    background-color: white;
     margin: 1.2em  5em;
 }
 
@@ -135,4 +134,18 @@ article header{
 #news header h1{
     text-shadow: 5px 5px 5px #000000ca;
     font-size: 28px;
+}
+
+article{
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+article > p {
+    padding: 10px;
+}
+
+footer{
+    padding: 10px;
+    margin-bottom: 15px;
 }
