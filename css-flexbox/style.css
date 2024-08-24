@@ -1,0 +1,48 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    background-color: white;
+    width: 350px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-resume{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-resume-image-cropper img{
+    border-radius: 50%;
+}
+
+.profile-bio{
+    border-top: .4px solid gray;
+    border-bottom: .4px solid gray;
+    padding: 15px 0 15px 0;
+}
+
+.profile-nav{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
