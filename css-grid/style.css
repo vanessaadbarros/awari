@@ -1,0 +1,49 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body{
+    background-color: white;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas: "header header header"
+        "aside main main"
+        "footer footer footer";
+    grid-template-columns: 20vw auto auto;
+    grid-template-rows: 50px calc(100vh - 100px - 10px) 50px;
+}
+
+.header{
+    background-color: red;
+    grid-area: header;
+    color: white;
+    height: 50px;
+    padding: 10px;
+}
+
+.aside{
+    background-color: lightseagreen;
+    color: white;
+    grid-area: aside;
+    padding: 10px;
+}
+
+.main{
+    background-color: rgb(183, 19, 137);
+    color: white;
+    grid-area: main;
+    padding: 10px;
+}
+
+.footer{
+    background-color: rgb(19, 183, 38);
+    color: white;
+    grid-area: footer;
+    padding: 10px;
+}
+
